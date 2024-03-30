@@ -3,7 +3,7 @@ const users = []
 const addUser = ({ id, username, room }) => {
     // Clean the data
     username = username.trim().toLowerCase()
-    room = room.trim().toLowerCase()
+    room = room.trim()
 
     // Validate the data
     if (!username || !room) {
@@ -43,7 +43,7 @@ const getUser = (id) => {
 }
 
 const getUsersInRoom = (room) => {
-    room = room.trim().toLowerCase()
+    room = room.trim()
     return users.filter((user) => user.room === room)
 }
 
