@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +55,7 @@ button:disabled {
 }
 .centered-form__box {
   box-shadow: 0 0 17px 1px #1d1f26;
-  background: #f7f7fa;
+  background:lightgray;
   padding: 24px;
   width: 350px;
   height: 340px;
