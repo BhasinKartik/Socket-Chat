@@ -120,6 +120,7 @@ button:disabled {
 
 .message__name {
     font-weight: 600;
+    color: blue;
     font-size: 14px;
     margin-right: 8px;
 }
@@ -171,6 +172,7 @@ button:disabled {
 }
 
 .list-title {
+    color: aqua;
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 4px;
